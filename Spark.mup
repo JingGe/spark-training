@@ -1,0 +1,563 @@
+{
+  "title": "Spark",
+  "id": 1,
+  "formatVersion": 2,
+  "ideas": {
+    "1": {
+      "title": "deployment modes",
+      "id": 2,
+      "attr": {
+        "position": [
+          198.5,
+          17,
+          30
+        ],
+        "style": {
+          "background": "#00ff00"
+        },
+        "collapsed": true
+      },
+      "ideas": {
+        "1": {
+          "title": "local",
+          "id": 14
+        },
+        "2": {
+          "title": "standalone",
+          "id": 16
+        },
+        "3": {
+          "title": "local cluster",
+          "id": 17
+        },
+        "4": {
+          "title": "Yarn",
+          "id": 18,
+          "ideas": {
+            "1": {
+              "title": "standalone",
+              "id": 20
+            },
+            "2": {
+              "title": "cluster",
+              "id": 21,
+              "ideas": {
+                "2": {
+                  "title": "Cupid introduction",
+                  "id": 36,
+                  "attr": {
+                    "style": {}
+                  },
+                  "ideas": {
+                    "1": {
+                      "title": "Zepplin",
+                      "id": 37
+                    },
+                    "2": {
+                      "title": "training env",
+                      "id": 91,
+                      "attr": {}
+                    }
+                  }
+                },
+                "7": {
+                  "title": "eBay Clusters",
+                  "id": 92,
+                  "ideas": {
+                    "1": {
+                      "title": "Apollo",
+                      "id": 93
+                    },
+                    "2": {
+                      "title": "Spades",
+                      "id": 94
+                    }
+                  }
+                },
+                "12": {
+                  "title": "job submit",
+                  "id": 22,
+                  "ideas": {
+                    "1": {
+                      "title": "case study",
+                      "id": 34
+                    }
+                  },
+                  "attr": {
+                    "style": {}
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#ccffff"
+                }
+              }
+            }
+          }
+        },
+        "5": {
+          "title": "Mesos",
+          "id": 19
+        }
+      }
+    },
+    "2": {
+      "title": "job lifecycle",
+      "id": 39,
+      "ideas": {
+        "1": {
+          "title": "DAG",
+          "id": 42
+        },
+        "2": {
+          "title": "Job",
+          "id": 43
+        },
+        "3": {
+          "title": "Stage",
+          "id": 44
+        },
+        "4": {
+          "title": "Task",
+          "id": 45
+        },
+        "5": {
+          "title": "Scheduler",
+          "id": 46,
+          "ideas": {
+            "1": {
+              "title": "DAGScheduler",
+              "id": 57
+            },
+            "2": {
+              "title": "TaskScheduler",
+              "id": 58
+            }
+          }
+        }
+      },
+      "attr": {
+        "style": {
+          "background": "#00ff00"
+        },
+        "position": [
+          176.5,
+          263,
+          40
+        ],
+        "collapsed": true
+      }
+    },
+    "0.5": {
+      "title": "Why Spark",
+      "id": 11,
+      "attr": {
+        "position": [
+          215.5,
+          -89,
+          37
+        ],
+        "style": {
+          "background": "#00ff00"
+        }
+      },
+      "ideas": {
+        "1": {
+          "title": "desing concept",
+          "id": 30
+        },
+        "2": {
+          "title": "hello world",
+          "id": 31,
+          "ideas": {
+            "1": {
+              "title": "Vs. MR",
+              "id": 55
+            }
+          }
+        },
+        "3": {
+          "title": "Shell",
+          "id": 35
+        },
+        "1.5": {
+          "title": "RDD",
+          "id": 38
+        }
+      }
+    },
+    "-20": {
+      "title": "Spark MLlib",
+      "id": 5,
+      "attr": {
+        "position": [
+          222,
+          120,
+          15
+        ],
+        "style": {
+          "background": "#00ff00"
+        },
+        "collapsed": true
+      },
+      "ideas": {
+        "1": {
+          "title": "ML for Engineer",
+          "id": 12,
+          "ideas": {
+            "1": {
+              "title": "linear algebra",
+              "id": 75,
+              "attr": {
+                "style": {}
+              }
+            },
+            "2": {
+              "title": "supervised Learning",
+              "id": 76,
+              "attr": {
+                "style": {}
+              }
+            },
+            "3": {
+              "title": "unsupervised Learning",
+              "id": 77
+            },
+            "4": {
+              "title": "regression",
+              "id": 78,
+              "attr": {
+                "style": {}
+              },
+              "ideas": {
+                "1": {
+                  "title": "linear",
+                  "id": 79
+                },
+                "2": {
+                  "title": "logistic",
+                  "id": 80
+                }
+              }
+            },
+            "5": {
+              "title": "clustering",
+              "id": 81
+            },
+            "6": {
+              "title": "anomaly detection",
+              "id": 82
+            },
+            "7": {
+              "title": "recommender systems",
+              "id": 83
+            },
+            "8": {
+              "title": "Neutral Networks",
+              "id": 85
+            },
+            "9": {
+              "title": "ML process",
+              "id": 86,
+              "ideas": {
+                "1": {
+                  "title": "define features ",
+                  "id": 87
+                },
+                "2": {
+                  "title": "70/30 data for learning/test",
+                  "id": 88
+                },
+                "3": {
+                  "title": "tuning",
+                  "id": 90
+                }
+              }
+            },
+            "5.5": {
+              "title": "SVM",
+              "id": 84
+            }
+          }
+        },
+        "2": {
+          "title": "Spark API walk through",
+          "id": 72,
+          "attr": {
+            "style": {}
+          },
+          "ideas": {
+            "1": {
+              "title": "linear model",
+              "id": 95
+            },
+            "2": {
+              "title": "decision tree",
+              "id": 97
+            },
+            "3": {
+              "title": "k-means",
+              "id": 98
+            },
+            "4": {
+              "title": "PCA",
+              "id": 99
+            },
+            "5": {
+              "title": "etc.",
+              "id": 100
+            }
+          }
+        },
+        "3": {
+          "title": "case study",
+          "id": 73
+        }
+      }
+    },
+    "-5": {
+      "title": "SparkSQL ",
+      "id": 3,
+      "ideas": {
+        "1": {
+          "title": "DataFrame",
+          "id": 8,
+          "attr": {
+            "style": {}
+          }
+        },
+        "2": {
+          "title": "DataSet",
+          "id": 9,
+          "attr": {
+            "style": {}
+          }
+        },
+        "3": {
+          "title": "API",
+          "id": 69,
+          "attr": {
+            "style": {}
+          }
+        },
+        "4": {
+          "title": "Catalyst Optimizer",
+          "id": 70,
+          "attr": {
+            "style": {}
+          }
+        },
+        "5": {
+          "title": "Tungsten Engine",
+          "id": 71
+        },
+        "6": {
+          "title": "case study",
+          "id": 74
+        }
+      },
+      "attr": {
+        "style": {
+          "background": "#00ff00"
+        },
+        "position": [
+          217.5,
+          -82,
+          34
+        ],
+        "collapsed": true
+      }
+    },
+    "0.25": {
+      "title": "overview",
+      "id": 23,
+      "attr": {
+        "position": [
+          201.5,
+          -207,
+          38
+        ],
+        "style": {
+          "background": "#00ff00"
+        },
+        "collapsed": true
+      },
+      "ideas": {
+        "1": {
+          "title": "about the training program",
+          "id": 24
+        },
+        "2": {
+          "title": "why are we here",
+          "id": 25
+        },
+        "3": {
+          "title": "Who are we",
+          "id": 26
+        },
+        "4": {
+          "title": "goal",
+          "id": 27
+        },
+        "5": {
+          "title": "training program walk through",
+          "id": 28
+        }
+      }
+    },
+    "-30": {
+      "title": "performance tuning",
+      "id": 40,
+      "attr": {
+        "position": [
+          233.5,
+          203,
+          42
+        ],
+        "style": {
+          "background": "#00ff00"
+        }
+      }
+    },
+    "-15": {
+      "title": "Spark GraphX",
+      "id": 41,
+      "attr": {
+        "position": [
+          195,
+          23,
+          14
+        ],
+        "style": {
+          "background": "#00ff00"
+        }
+      }
+    },
+    "-40": {
+      "title": "Store",
+      "id": 48,
+      "ideas": {
+        "1": {
+          "title": "DiskStore",
+          "id": 49,
+          "attr": {
+            "style": {}
+          }
+        },
+        "2": {
+          "title": "MemoryStore",
+          "id": 51
+        },
+        "3": {
+          "title": "BlockManager",
+          "id": 52
+        },
+        "4": {
+          "title": "alluxio(optional)",
+          "id": 54
+        }
+      },
+      "attr": {
+        "style": {
+          "background": "#00ff00"
+        },
+        "position": [
+          233.5,
+          284,
+          43
+        ],
+        "collapsed": true
+      }
+    },
+    "1.5": {
+      "title": "Engine",
+      "id": 59,
+      "ideas": {
+        "1": {
+          "title": "Map",
+          "id": 60,
+          "attr": {
+            "style": {}
+          }
+        },
+        "2": {
+          "title": "Reduce",
+          "id": 61
+        },
+        "3": {
+          "title": "shuffle",
+          "id": 62
+        }
+      },
+      "attr": {
+        "style": {
+          "background": "#00ff00"
+        },
+        "position": [
+          210.5,
+          136,
+          39
+        ],
+        "collapsed": true
+      }
+    },
+    "-2.5": {
+      "title": "Monitoring",
+      "id": 63,
+      "attr": {
+        "position": [
+          130.5,
+          -276,
+          36
+        ],
+        "style": {
+          "background": "#00ff00"
+        },
+        "collapsed": true
+      },
+      "ideas": {
+        "1": {
+          "title": "Spark UI",
+          "id": 64
+        },
+        "2": {
+          "title": "Apache Eagle",
+          "id": 65
+        }
+      }
+    },
+    "-3.75": {
+      "title": "Spark Streaming",
+      "id": 4,
+      "attr": {
+        "position": [
+          186.5,
+          -176,
+          35
+        ],
+        "style": {
+          "background": "#00ff00"
+        },
+        "collapsed": true
+      },
+      "ideas": {
+        "1": {
+          "title": "Streaming concept",
+          "id": 66,
+          "attr": {
+            "style": {}
+          }
+        },
+        "2": {
+          "title": "Mini batch",
+          "id": 67
+        },
+        "3": {
+          "title": "DStream",
+          "id": 68
+        }
+      }
+    }
+  }
+}
